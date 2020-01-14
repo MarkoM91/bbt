@@ -29,13 +29,13 @@
       .active {
         display: block;
         width: 5.7%;
-  position: absolute;
-  top: -5%;
-  left: 57%;
-  animation: circle 5s;
-  transform-origin: 0px 700px;
-  animation-fill-mode: forwards;
-  animation-direction: alternate;
+        position: absolute;
+        top: -5%;
+        left: 57%;
+        animation: circle 5s;
+        transform-origin: 0px 700px;
+        animation-fill-mode: forwards;
+        animation-direction: alternate;
       }
     }
 
@@ -68,10 +68,11 @@
 
 @keyframes circle {
 
-      0% { transform: translateX(10px)  }
-      10%   { transform:  translateX(0px)   translateY(20px)}
-       20%   { transform:  translateX(20px)   translateY(40px)}
-        30%   { transform:  translateX(50px)   translateY(52px)}
-       40%   { transform:  translateX(150px)   translateY(50px)}
+from {
+  transform:rotate(-20deg);
+}
+to {
+  transform:rotate(0deg);
+}
 
 }

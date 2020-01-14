@@ -10738,8 +10738,8 @@ $(document).ready(init);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\www\bubbletea\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! D:\www\bubbletea\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! C:\MAMP\htdocs\bbt\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\MAMP\htdocs\bbt\src\app.scss */"./src/app.scss");
 
 
 /***/ })
