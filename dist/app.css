@@ -5,6 +5,14 @@
 }
 
 .container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container .wrapper {
+  height: 100%;
+  width: 100%;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -14,26 +22,32 @@
           align-items: center;
   -webkit-box-pack: center;
           justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
-.container .image img {
-  width: 50px;
-  height: 50px;
+.container .wrapper .image img {
+  width: 150px;
+  height: 250px;
   display: none;
+  margin-bottom: 50px;
 }
 
-.container .image .active {
+.container .wrapper .image .active {
   display: block;
 }
 
-.container .direct-link-container .direct-link-wrapper {
+.container .wrapper .direct-link-container .direct-link-wrapper {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
           justify-content: space-between;
 }
 
-.container .direct-link-container .direct-link-wrapper .circle {
+.container .wrapper .direct-link-container .direct-link-wrapper .circle {
   height: 20px;
   width: 20px;
   border: 2px solid black;
@@ -41,7 +55,7 @@
   margin: 5px;
 }
 
-.container .direct-link-container .direct-link-wrapper .circle:after {
+.container .wrapper .direct-link-container .direct-link-wrapper .circle:after {
   content: "";
   display: block;
   height: 2px;

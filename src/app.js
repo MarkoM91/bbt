@@ -8,7 +8,6 @@ function dotClick() {
   $('img').eq($thisIndex).addClass('active');
 }
 
-
 function init() {
  $('.circle').click(dotClick);
 }
