@@ -21,6 +21,13 @@
     transform: translate(-50%, -50%);
     .image  {
       img {
+        width: 150px;
+        height: 250px;
+        display: none;
+        margin-bottom: 50px;
+      }
+      .active {
+        display: block;
         width: 5.7%;
   position: absolute;
   top: -5%;
@@ -29,9 +36,6 @@
   transform-origin: 0px 700px;
   animation-fill-mode: forwards;
   animation-direction: alternate;
-      }
-      .active {
-        display: block;
       }
     }
 

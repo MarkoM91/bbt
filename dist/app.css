@@ -30,6 +30,14 @@
 }
 
 .container .wrapper .image img {
+  width: 150px;
+  height: 250px;
+  display: none;
+  margin-bottom: 50px;
+}
+
+.container .wrapper .image .active {
+  display: block;
   width: 5.7%;
   position: absolute;
   top: -5%;
@@ -42,10 +50,6 @@
           animation-fill-mode: forwards;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
-}
-
-.container .wrapper .image .active {
-  display: block;
 }
 
 .container .wrapper .direct-link-container .direct-link-wrapper {
