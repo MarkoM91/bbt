@@ -30,10 +30,18 @@
 }
 
 .container .wrapper .image img {
-  width: 150px;
-  height: 250px;
-  display: none;
-  margin-bottom: 50px;
+  width: 5.7%;
+  position: absolute;
+  top: -5%;
+  left: 57%;
+  -webkit-animation: circle 5s linear infinite;
+          animation: circle 5s linear infinite;
+  -webkit-transform-origin: 0px 700px;
+          transform-origin: 0px 700px;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 .container .wrapper .image .active {
@@ -63,5 +71,29 @@
   border: 2px solid black;
   border-radius: 50%;
   margin: 5px;
+}
+
+@-webkit-keyframes circle {
+  from {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes circle {
+  from {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
 }
 

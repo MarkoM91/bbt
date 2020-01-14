@@ -21,10 +21,14 @@
     transform: translate(-50%, -50%);
     .image  {
       img {
-        width: 150px;
-        height: 250px;
-        display: none;
-        margin-bottom: 50px;
+        width: 5.7%;
+  position: absolute;
+  top: -5%;
+  left: 57%;
+  animation: circle 5s linear infinite;
+  transform-origin: 0px 700px;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
       }
       .active {
         display: block;
@@ -54,5 +58,15 @@
         }
       }
     }
+  }
+}
+
+
+@keyframes circle {
+  from {
+    transform:rotate(-20deg);
+  }
+  to {
+    transform:rotate(0deg);
   }
 }
