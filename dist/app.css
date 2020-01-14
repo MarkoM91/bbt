@@ -42,8 +42,8 @@
   position: absolute;
   top: -5%;
   left: 47%;
-  -webkit-animation: circle 5s;
-          animation: circle 5s;
+  -webkit-animation: circle 2s;
+          animation: circle 2s;
   -webkit-transform-origin: 0px 700px;
           transform-origin: 0px 700px;
   -webkit-animation-fill-mode: forwards;
@@ -79,8 +79,8 @@
 
 @-webkit-keyframes circle {
   from {
-    -webkit-transform: rotate(-20deg);
-            transform: rotate(-20deg);
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
   }
 
   to {
@@ -91,8 +91,8 @@
 
 @keyframes circle {
   from {
-    -webkit-transform: rotate(-20deg);
-            transform: rotate(-20deg);
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
   }
 
   to {
