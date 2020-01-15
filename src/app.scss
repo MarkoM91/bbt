@@ -50,12 +50,6 @@
 	    font-size: 100px;
       animation: yAxis 5s  linear;
       transform-origin: 0 700px;
-
-      &::after {
-        content: "";
-        display: block;
-        animation: yAxis 15s  ease-in-out infinite;
-      }
     }
   }
   .direct-link-container {
@@ -111,14 +105,14 @@
 //  }
 //}
 
-        @keyframes yAxis {
-          50% {
-            animation-timing-function: ease-in-out;
-            transform:translateX(100%) translateY(calc(-100px));
-          }
-            100% {
-            animation-timing-function: ease-in-out;
-            transform: translateX(100%) translateY(-100);
-          }
+  @keyframes yAxis {
+    50% {
+      animation-timing-function: ease-in-out;
+      transform:translateX(100%) translateY(calc(-100px));
+    }
+      100% {
+      animation-timing-function: ease-in-out;
+      transform: translateX(0%) translateY(-100);
+    }
 
-            }
+  }
