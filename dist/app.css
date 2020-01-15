@@ -31,13 +31,13 @@
 }
 
 .container .wrapper .image {
-  width: 255px !important;
+  width: 50% !important;
   height: 550px !important;
   display: none;
 }
 
 .container .wrapper .image img {
-  width: 100% !important;
+  width: 20% !important;
   height: 100% !important;
 }
 
@@ -95,25 +95,25 @@
 
 @-webkit-keyframes circle {
   from {
-    -webkit-transform: rotate(-22deg);
-            transform: rotate(-22deg);
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 
   to {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
 }
 
 @keyframes circle {
   from {
-    -webkit-transform: rotate(-22deg);
-            transform: rotate(-22deg);
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 
   to {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
 }
 

@@ -79,19 +79,20 @@
 
 @keyframes circle {
     from {
-      transform: translateX(0%);
+      transform:rotate(-22deg);
     }
     to {
-      transform: translateX(100%);
+      transform:rotate(0deg);
     }
 }
 
+
 //@keyframes circle {
 //    from {
-//      transform:rotate(-22deg);
+//      transform: translateX(0%);
 //    }
 //    to {
-//      transform:rotate(0deg);
+//      transform: translateX(100%);
 //    }
 //}
 
