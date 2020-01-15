@@ -48,8 +48,7 @@
 	    left: 50%;
 	    margin: -20px;
 	    font-size: 100px;
-      animation: yAxis 5s  linear;
-      transform-origin: 0 700px;
+      animation: yAxis 5s;
     }
   }
   .direct-link-container {
@@ -99,20 +98,19 @@
 
 //@keyframes circle {
 //  0% {
-//    transform: translate(500px,-250px) scaleX(0.10) scaleY(0.10) ;
+//    transform: translate(-500px,250px) scaleX(0.10) scaleY(0.10) ;
 //  } 100% {
 //    transform: translate(0px,0px) scaleX(1.00) scaleY(1.00) ;
 //  }
 //}
 
   @keyframes yAxis {
-    50% {
-      animation-timing-function: ease-in-out;
-      transform:translateX(100%) translateY(calc(-100px));
+    0% {
+      //animation-timing-function: ease-in-out;
+      transform: translate(0px, 0px) scaleX(0.8) scaleY(0.8);
     }
       100% {
-      animation-timing-function: ease-in-out;
-      transform: translateX(0%) translateY(-100);
+      //animation-timing-function: ease-in-out;
+      transform:translateX(500px) translateY(-50px) scaleX(1.0) scaleY(1.0);
     }
-
   }

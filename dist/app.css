@@ -60,10 +60,8 @@
   left: 50%;
   margin: -20px;
   font-size: 100px;
-  -webkit-animation: yAxis 5s linear;
-          animation: yAxis 5s linear;
-  -webkit-transform-origin: 0 700px;
-          transform-origin: 0 700px;
+  -webkit-animation: yAxis 5s;
+          animation: yAxis 5s;
 }
 
 .container .direct-link-container .direct-link-wrapper {
@@ -90,34 +88,26 @@
 }
 
 @-webkit-keyframes yAxis {
-  50% {
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-    -webkit-transform: translateX(100%) translateY(calc(-100px));
-            transform: translateX(100%) translateY(calc(-100px));
+  0% {
+    -webkit-transform: translate(0px, 0px) scaleX(0.8) scaleY(0.8);
+            transform: translate(0px, 0px) scaleX(0.8) scaleY(0.8);
   }
 
   100% {
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-    -webkit-transform: translateX(0%) translateY(-100);
-            transform: translateX(0%) translateY(-100);
+    -webkit-transform: translateX(500px) translateY(-50px) scaleX(1) scaleY(1);
+            transform: translateX(500px) translateY(-50px) scaleX(1) scaleY(1);
   }
 }
 
 @keyframes yAxis {
-  50% {
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-    -webkit-transform: translateX(100%) translateY(calc(-100px));
-            transform: translateX(100%) translateY(calc(-100px));
+  0% {
+    -webkit-transform: translate(0px, 0px) scaleX(0.8) scaleY(0.8);
+            transform: translate(0px, 0px) scaleX(0.8) scaleY(0.8);
   }
 
   100% {
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-    -webkit-transform: translateX(0%) translateY(-100);
-            transform: translateX(0%) translateY(-100);
+    -webkit-transform: translateX(500px) translateY(-50px) scaleX(1) scaleY(1);
+            transform: translateX(500px) translateY(-50px) scaleX(1) scaleY(1);
   }
 }
 
