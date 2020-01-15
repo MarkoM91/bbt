@@ -37,6 +37,21 @@
   height: 100% !important;
 }
 
+.container .wrapper .image:nth-child(1) {
+  position: relative;
+  right: 250px;
+}
+
+.container .wrapper .image:nth-child(2) {
+  position: relative;
+  left: 275px;
+}
+
+.container .wrapper .image:nth-child(3) {
+  position: relative;
+  left: 375px;
+}
+
 .container .wrapper .active {
   width: 40px;
   height: 40px;
