@@ -2,10 +2,10 @@ const $ = require('jquery');
 function dotClick() {
   const $this = $(this);
   let $thisIndex = $this.index();
+console.log($thisIndex);
+  $('.image.active').removeClass('active');
 
-  $('img.active').removeClass('active');
-
-  $('img').eq($thisIndex).addClass('active');
+  $('.wrapper > .image').eq($thisIndex).addClass('active');
 }
 
 function init() {

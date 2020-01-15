@@ -30,18 +30,20 @@
           transform: translateX(-50%);
 }
 
-.container .wrapper .image img {
+.container .wrapper .image {
   width: 255px !important;
   height: 550px !important;
   display: none;
 }
 
-.container .wrapper .image .active {
+.container .wrapper .image img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.container .wrapper .active {
   display: block;
   width: 5.7%;
-  position: absolute;
-  top: 10%;
-  left: 47%;
   -webkit-animation: circle 1s;
           animation: circle 1s;
   -webkit-transform-origin: 0px 700px;

@@ -21,22 +21,21 @@
     bottom: 8px;
     transform: translateX(-50%);
     .image  {
+      width: 255px!important;
+      height: 550px!important;
+      display: none;
       img {
-        width: 255px!important;
-        height: 550px!important;
-        display: none;
+        width: 100%!important;
+        height: 100%!important;
       }
-      .active {
-        display: block;
-        width: 5.7%;
-        position: absolute;
-        top: 10%;
-        left: 47%;
-        animation: circle 1s;
-        transform-origin: 0px 700px;
-        animation-fill-mode: forwards;
-        animation-direction: alternate;
-      }
+    }
+    .active {
+      display: block;
+      width: 5.7%;
+      animation: circle 1s;
+      transform-origin: 0px 700px;
+      animation-fill-mode: forwards;
+      animation-direction: alternate;
     }
 
     .direct-link-container {

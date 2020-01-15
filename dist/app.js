@@ -10708,8 +10708,9 @@ var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"
 function dotClick() {
   var $this = $(this);
   var $thisIndex = $this.index();
-  $('img.active').removeClass('active');
-  $('img').eq($thisIndex).addClass('active');
+  console.log($thisIndex);
+  $('.image.active').removeClass('active');
+  $('.wrapper > .image').eq($thisIndex).addClass('active');
 }
 
 function init() {
