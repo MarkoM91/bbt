@@ -9,6 +9,17 @@
   width: 80vw;
   height: 100vh;
   margin: auto;
+
+  .hidden {
+    height: 550px;
+    width: 89px;
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+
   .wrapper {
      height: 100%;
      width: 100%;
@@ -51,7 +62,7 @@
 	    left: 50%;
 	    margin: -20px;
 	    font-size: 100px;
-      animation: moveRight 5s!important;
+      animation: moveRight 2s!important;
     }
     .activeLast {
       width: 40px;
@@ -61,7 +72,7 @@
 	    left: 50%;
 	    margin: -20px;
 	    font-size: 100px;
-      animation: moveLeft 5s!important;
+      animation: moveLeft 2s!important;
     }
   }
   .direct-link-container {
