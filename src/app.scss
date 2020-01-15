@@ -49,10 +49,17 @@
           width: 20px;
           border: 2px solid black;
           border-radius: 50%;
-          margin: 5px;
+          margin: 2px;
+          position: relative;
+          top: 262px;
+          left: 10px;
+
           &:after {
             content: '';
             display: block;
+            position: relative;
+            top: 262px;
+            left: 90px;
             height: 2px;
             width: 2px;
             border: 2px solid black;
