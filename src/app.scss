@@ -138,3 +138,73 @@
       transform:translateX(500px) translateY(-250px) scaleX(1.0) scaleY(1.0);
     }
   }
+
+  @keyframes ellipse {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  5% {
+    transform: translateX(0) translateY(0);
+  }
+  10% {
+    transform: translateX(0) translateY(0);
+  }
+  15% {
+    transform: translateX(0) translateY(0);
+  }
+  29% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(0) translateY(0);
+  }
+  30% {
+    transform: translateX(0) translateY(0);
+  }
+  35% {
+    transform: translateX(0) translateY(0);
+  }
+  40% {
+    transform: translateX(0) translateY(0);
+  }
+  45% {
+    transform: translateX(0) translateY(0);
+  }
+
+  50% {
+    transform: translateX(400px) translateY(-100px);
+  }
+
+  55% {
+    transform: translateX(800px) translateY(0);
+  }
+
+  60% {
+    transform: translateX(400px) translateY(100px);
+  }
+  65% {
+    transform: translateX(400px) translateY(100px);
+  }
+  70% {
+    transform: translateX(400px) translateY(100px);
+  }
+  75% {
+    transform: translateX(400px) translateY(100px);
+  }
+  80% {
+    transform: translateX(400px) translateY(100px);
+  }
+  85% {
+    transform: translateX(400px) translateY(100px);
+  }
+  90% {
+    transform: translateX(400px) translateY(100px);
+  }
+  95% {
+    transform: translateX(400px) translateY(100px);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
