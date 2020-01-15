@@ -30,7 +30,7 @@
         display: block;
         width: 5.7%;
         position: absolute;
-        top: -5%;
+        top: 10%;
         left: 47%;
         animation: circle 1s;
         transform-origin: 0px 700px;
@@ -66,19 +66,20 @@
 }
 
 
-//@keyframes circle {
-//    from {
-//      transform:rotate(-20deg);
-//    }
-//    to {
-//      transform:rotate(0deg);
-//    }
-//}
-
 @keyframes circle {
-  0% {
-    transform: translate(500px,-250px) scaleX(0.10) scaleY(0.10) ;
-  } 100% {
-    transform: translate(0px,0px) scaleX(1.00) scaleY(1.00) ;
-  }
+    from {
+      transform:rotate(-22deg);
+    }
+    to {
+      transform:rotate(0deg);
+    }
 }
+
+//@keyframes circle {
+//  0% {
+//    transform: translate(500px,-250px) scaleX(0.10) scaleY(0.10) ;
+//  } 100% {
+//    transform: translate(0px,0px) scaleX(1.00) scaleY(1.00) ;
+//  }
+//}
+//
