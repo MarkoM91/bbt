@@ -27,6 +27,19 @@
         height: 100%!important;
       }
     }
+
+    .image:nth-child(1) {
+      position: relative;
+      right: 250px;
+    }
+    .image:nth-child(2) {
+      position: relative;
+      left: 275px;
+    }
+    .image:nth-child(3) {
+      position: relative;
+      left: 375px;
+    }
     .active {
       display: block;
       width: 5.7%;
