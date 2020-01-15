@@ -6,7 +6,7 @@ console.log($thisIndex);
   $('.image.active').removeClass('active');
 
   $('.wrapper > .image').eq($thisIndex).addClass('active');
-  $('.image.active').next('.image').css('animation' , 'moveRight 5s');
+  $('.image.active').next('.image').css('animation' , 'moveLeft 5s');
 }
 
 function init() {
