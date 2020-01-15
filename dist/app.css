@@ -38,16 +38,17 @@
 }
 
 .container .wrapper .active {
-  display: block;
-  width: 5.7%;
-  -webkit-animation: circle 1s;
-          animation: circle 1s;
-  -webkit-transform-origin: 0px 700px;
-          transform-origin: 0px 700px;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin: -20px;
+  font-size: 100px;
+  -webkit-animation: circle 3s infinite linear;
+          animation: circle 3s infinite linear;
+  -webkit-transform-origin: 0 1000px;
+          transform-origin: 0 1000px;
 }
 
 .container .direct-link-container .direct-link-wrapper {
@@ -75,25 +76,25 @@
 
 @-webkit-keyframes circle {
   from {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: rotate(-45deg) translate(-150px) rotate(-45deg);
+            transform: rotate(-45deg) translate(-150px) rotate(-45deg);
   }
 
   to {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    -webkit-transform: rotate(0deg) translate(-150px) rotate(0deg);
+            transform: rotate(0deg) translate(-150px) rotate(0deg);
   }
 }
 
 @keyframes circle {
   from {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: rotate(-45deg) translate(-150px) rotate(-45deg);
+            transform: rotate(-45deg) translate(-150px) rotate(-45deg);
   }
 
   to {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    -webkit-transform: rotate(0deg) translate(-150px) rotate(0deg);
+            transform: rotate(0deg) translate(-150px) rotate(0deg);
   }
 }
 
