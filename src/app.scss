@@ -6,8 +6,9 @@
 
 .container {
   position: relative;
-  width: 100vw;
+  width: 80vw;
   height: 100vh;
+  margin: auto;
   .wrapper {
     height: 100%;
     width: 100%;
@@ -62,8 +63,10 @@
         }
       }
     }
-
-    .footer {
+  }
+  .footer {
+    width: 1344px;
+    img {
       width: 100%;
     }
   }
