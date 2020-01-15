@@ -110,7 +110,7 @@
   0% {
     transform: translate(0px, 0px) scaleX(0.8) scaleY(0.8);
   } 100% {
-    transform:translateX(-500px) translateY(-250px) scaleX(1.0) scaleY(1.0);
+    transform:translateX(-500px) translateY(250px) scaleX(1.0) scaleY(1.0);
   }
 }
 

@@ -1,106 +1,25 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+const $ = require('jquery');
+function dotClickFirst() {
+  const $this = $(this);
+  let $thisIndex = $this.index();
+  $('.image.activeFirst').removeClass('activeFirst');
+
+  $('.wrapper > .image').eq($thisIndex).addClass('activeFirst');
+  $('.image.activeFirst').next('.image').css('animation' , 'moveLeft 5s');
 }
 
-.container {
-  position: relative;
-  width: 80vw;
-  height: 100vh;
-  margin: auto;
-  .wrapper {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 43.5%;
-    bottom: 8px;
-    transform: translateX(-50%);
-    .image  {
-      width: 50%!important;
-      height: 550px!important;
-      display: none;
-      img {
-        width: 20%!important;
-        height: 100%!important;
-      }
-    }
-    .active {
-      display: block;
-      width: 5.7%;
-      animation: circle 1s;
-      transform-origin: 0px 700px;
-      animation-fill-mode: forwards;
-      animation-direction: alternate;
-    }
+function dotClickLast() {
+  const $this = $(this);
+  let $thisIndex = $this.index();
+  $('.image.activeFirst').removeClass('activeLast');
 
-    .direct-link-container {
-      .direct-link-wrapper {
-        display: flex;
-        justify-content: space-between;
-
-        .circle {
-          height: 20px;
-          width: 20px;
-          border: 2px solid black;
-          border-radius: 50%;
-          margin: 2px;
-          position: relative;
-          top: 262px;
-          left: 10px;
-
-          &:after {
-            content: '';
-            display: block;
-            position: relative;
-            top: 262px;
-            left: 90px;
-            height: 2px;
-            width: 2px;
-            border: 2px solid black;
-            border-radius: 50%;
-            margin: 5px;
-          }
-        }
-      }
-    }
-  }
-  .footer {
-    width: 1344px;
-    img {
-      width: 100%;
-    }
-  }
+  $('.wrapper > .image').eq($thisIndex).addClass('activeLast');
+  $('.image.activeLast').prev('.image').css('animation' , 'moveRight 5s');
 }
 
-@keyframes circle {
-    from {
-      transform:rotate(-22deg);
-    }
-    to {
-      transform:rotate(0deg);
-    }
+function init() {
+  $('.first').click(dotClickFirst);
+  $('.last').click(dotClickLast);
 }
 
-
-//@keyframes circle {
-//    from {
-//      transform: translateX(0%);
-//    }
-//    to {
-//      transform: translateX(100%);
-//    }
-//}
-
-//@keyframes circle {
-//  0% {
-//    transform: translate(500px,-250px) scaleX(0.10) scaleY(0.10) ;
-//  } 100% {
-//    transform: translate(0px,0px) scaleX(1.00) scaleY(1.00) ;
-//  }
-//}
-//
+$(document).ready(init);
