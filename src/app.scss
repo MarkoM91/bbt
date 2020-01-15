@@ -10,15 +10,15 @@
   height: 100vh;
   margin: auto;
   .wrapper {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 43.5%;
-    bottom: 8px;
-    transform: translateX(-50%);
+     height: 100%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     left: 43.5%;
+     bottom: 8px;
+     transform: translateX(-50%);
     .image  {
       width: 50%!important;
       height: 550px!important;
@@ -42,16 +42,21 @@
     }
     .active {
       width: 40px;
-	height: 40px;
-	position: absolute;
-	top: 200px;
-	left: 50%;
-	margin: -20px;
-	font-size: 100px;
-	animation: circle 3s infinite linear;
-  transform-origin: 0 1000px;
-    }
+	    height: 40px;
+	    position: absolute;
+	    top: 200px;
+	    left: 50%;
+	    margin: -20px;
+	    font-size: 100px;
+      animation: yAxis 5s  linear;
+      transform-origin: 0 700px;
 
+      &::after {
+        content: "";
+        display: block;
+        animation: yAxis 15s  ease-in-out infinite;
+      }
+    }
   }
   .direct-link-container {
     .direct-link-wrapper {
@@ -85,18 +90,18 @@
 //    }
 //}
 
-@keyframes circle {
-  from {
-  		transform: rotate(-45deg)
-  		           translate(-150px)
-  		           rotate(-45deg);
-  	}
-  	to {
-  		transform: rotate(0deg)
-  		           translate(-150px)
-  		           rotate(0deg);
-  	}
-}
+//@keyframes circle {
+//  from {
+//  		transform: rotate(-45deg)
+//  		           translate(-150px)
+//  		           rotate(-45deg);
+//  	}
+//  	to {
+//  		transform: rotate(0deg)
+//  		           translate(-150px)
+//  		           rotate(0deg);
+//  	}
+//}
 
 //@keyframes circle {
 //  0% {
@@ -105,4 +110,15 @@
 //    transform: translate(0px,0px) scaleX(1.00) scaleY(1.00) ;
 //  }
 //}
-//
+
+        @keyframes yAxis {
+          50% {
+            animation-timing-function: ease-in-out;
+            transform:translateX(100%) translateY(calc(-100px));
+          }
+            100% {
+            animation-timing-function: ease-in-out;
+            transform: translateX(100%) translateY(-100);
+          }
+
+            }

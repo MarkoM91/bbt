@@ -60,10 +60,17 @@
   left: 50%;
   margin: -20px;
   font-size: 100px;
-  -webkit-animation: circle 3s infinite linear;
-          animation: circle 3s infinite linear;
-  -webkit-transform-origin: 0 1000px;
-          transform-origin: 0 1000px;
+  -webkit-animation: yAxis 5s linear;
+          animation: yAxis 5s linear;
+  -webkit-transform-origin: 0 700px;
+          transform-origin: 0 700px;
+}
+
+.container .wrapper .active::after {
+  content: "";
+  display: block;
+  -webkit-animation: yAxis 15s ease-in-out infinite;
+          animation: yAxis 15s ease-in-out infinite;
 }
 
 .container .direct-link-container .direct-link-wrapper {
@@ -89,27 +96,35 @@
   width: 100%;
 }
 
-@-webkit-keyframes circle {
-  from {
-    -webkit-transform: rotate(-45deg) translate(-150px) rotate(-45deg);
-            transform: rotate(-45deg) translate(-150px) rotate(-45deg);
+@-webkit-keyframes yAxis {
+  50% {
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-transform: translateX(100%) translateY(calc(-100px));
+            transform: translateX(100%) translateY(calc(-100px));
   }
 
-  to {
-    -webkit-transform: rotate(0deg) translate(-150px) rotate(0deg);
-            transform: rotate(0deg) translate(-150px) rotate(0deg);
+  100% {
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-transform: translateX(100%) translateY(-100);
+            transform: translateX(100%) translateY(-100);
   }
 }
 
-@keyframes circle {
-  from {
-    -webkit-transform: rotate(-45deg) translate(-150px) rotate(-45deg);
-            transform: rotate(-45deg) translate(-150px) rotate(-45deg);
+@keyframes yAxis {
+  50% {
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-transform: translateX(100%) translateY(calc(-100px));
+            transform: translateX(100%) translateY(calc(-100px));
   }
 
-  to {
-    -webkit-transform: rotate(0deg) translate(-150px) rotate(0deg);
-            transform: rotate(0deg) translate(-150px) rotate(0deg);
+  100% {
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-transform: translateX(100%) translateY(-100);
+            transform: translateX(100%) translateY(-100);
   }
 }
 
