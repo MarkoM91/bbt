@@ -27,6 +27,28 @@
         height: 100%!important;
       }
     }
+    .circle {
+      height: 15px;
+      width: 15px;
+      border: 2px solid black;
+      border-radius: 50%;
+      margin: 2px;
+      &:checked + .verde {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        margin: -20px;
+        font-size: 100px;
+        animation: move 5s;
+      }
+
+      &:checked + .verde + .viola{
+        background: red;
+      }
+    }
+
 
     .image:nth-child(1) {
       position: relative;
@@ -40,32 +62,10 @@
       position: relative;
       left: 380px;
     }
-    .active {
-      width: 40px;
-	    height: 40px;
-	    position: absolute;
-	    top: 200px;
-	    left: 50%;
-	    margin: -20px;
-	    font-size: 100px;
-      animation: moveLeft 5s;
-    }
-  }
-  .direct-link-container {
-    .direct-link-wrapper {
-      position:absolute;
-      bottom: 0;
 
-      display: flex;
-      .circle {
-        height: 15px;
-        width: 15px;
-        border: 2px solid black;
-        border-radius: 50%;
-        margin: 2px;
-      }
-    }
   }
+
+
   .footer {
     width: 1344px;
     img {
@@ -74,37 +74,8 @@
   }
 }
 
-//@keyframes circle {
-//    from {
-//      transform: translateX(0%);
-//    }
-//    to {
-//      transform: translateX(100%);
-//    }
-//}
 
-//@keyframes circle {
-//  from {
-//  		transform: rotate(-45deg)
-//  		           translate(-150px)
-//  		           rotate(-45deg);
-//  	}
-//  	to {
-//  		transform: rotate(0deg)
-//  		           translate(-150px)
-//  		           rotate(0deg);
-//  	}
-//}
-
-@keyframes moveRight {
-  0% {
-    transform:translateX(500px) translateY(-50px) scaleX(1.0) scaleY(1.0);
-  } 100% {
-    transform: translate(0px, 0px) scaleX(0.8) scaleY(0.8);
-  }
-}
-
-  @keyframes moveLeft {
+  @keyframes move {
     0% {
       //animation-timing-function: ease-in-out;
       transform: translate(0px, 0px) scaleX(0.8) scaleY(0.8);
