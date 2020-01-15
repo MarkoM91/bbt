@@ -26,6 +26,9 @@
         width: 20%!important;
         height: 100%!important;
       }
+      .hidden {
+        display: none;
+      }
     }
 
     .image:nth-child(1) {
@@ -116,13 +119,11 @@
 
   @keyframes moveRight {
     0% {
-      animation-timing-function: ease;
+    //  animation-timing-function: ease;
       transform: translate(0px, 0px) scaleX(0.8) scaleY(0.8);
-      position: relative;
-      bottom: 500px;
     }
       100% {
-      animation-timing-function: ease;
+    //  animation-timing-function: ease;
       transform:translateX(500px) translateY(-250px) scaleX(1.0) scaleY(1.0);
     }
   }
