@@ -62,7 +62,7 @@
 	    left: 50%;
 	    margin: -20px;
 	    font-size: 100px;
-      animation: ellipse 2s!important;
+      animation: moveRight 2s!important;
     }
     .activeLast {
       width: 40px;
@@ -122,24 +122,29 @@
 
 @keyframes moveLeft {
   0% {
-    transform: translate(0px, 0px) scaleX(0.8) scaleY(0.8);
-  } 100% {
-    transform:translateX(-500px) translateY(250px) scaleX(1.0) scaleY(1.0);
+  transform: translateX(0) translateY(0);
+  }
+
+  25% {
+  transform: translateX(-125px) translateY(125px);
+  }
+
+  50% {
+  transform: translateX(-250px) translateY(250px);
+  }
+
+  75% {
+  transform: translateX(-375px) translateY(125);
+  }
+
+  100% {
+  transform: translateX(-500px) translateY(0);
+
   }
 }
 
-  @keyframes moveRight {
-    0% {
-    //  animation-timing-function: ease;
-      transform: translate(0px, 0px) scaleX(0.8) scaleY(0.8);
-    }
-      100% {
-    //  animation-timing-function: ease;
-      transform:translateX(500px) translateY(-250px) scaleX(1.0) scaleY(1.0);
-    }
-  }
 
-  @keyframes ellipse {
+  @keyframes moveRight {
     0% {
     transform: translateX(0) translateY(0);
   }
