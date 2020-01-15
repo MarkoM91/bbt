@@ -74,8 +74,8 @@
   left: 50%;
   margin: -20px;
   font-size: 100px;
-  -webkit-animation: moveRight 2s !important;
-          animation: moveRight 2s !important;
+  -webkit-animation: moveRight 3s !important;
+          animation: moveRight 3s !important;
 }
 
 .container .wrapper .activeLast {
@@ -86,8 +86,8 @@
   left: 50%;
   margin: -20px;
   font-size: 100px;
-  -webkit-animation: moveLeft 2s !important;
-          animation: moveLeft 2s !important;
+  -webkit-animation: moveLeft 1s !important;
+          animation: moveLeft 1s !important;
 }
 
 .container .direct-link-container .direct-link-wrapper {
