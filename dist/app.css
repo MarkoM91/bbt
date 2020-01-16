@@ -28,8 +28,8 @@
   display: flex;
   -webkit-box-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
   position: absolute;
   left: 43.5%;
   bottom: 8px;
@@ -44,8 +44,10 @@
 }
 
 .container .wrapper .image img {
-  width: 58% !important;
+  width: 45% !important;
   height: 100% !important;
+  text-align: center;
+  margin: auto;
 }
 
 .container .wrapper .image .round {
@@ -76,19 +78,21 @@
 }
 
 .container .wrapper .image:nth-child(1) {
-  position: relative;
-  left: 100px;
+  position: absolute;
+  left: -125px !important;
   z-index: 200;
 }
 
 .container .wrapper .image:nth-child(2) {
-  position: relative;
-  left: 183px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) !important;
+          transform: translateX(-50%) !important;
 }
 
 .container .wrapper .image:nth-child(3) {
-  position: relative;
-  left: 300px;
+  position: absolute;
+  right: -100px !important;
 }
 
 .container .wrapper .activeFirst {
