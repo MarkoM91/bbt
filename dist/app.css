@@ -43,7 +43,7 @@
 }
 
 .container .wrapper .image img {
-  width: 20% !important;
+  width: 40% !important;
   height: 100% !important;
 }
 
@@ -53,17 +53,20 @@
 
 .container .wrapper .image:nth-child(1) {
   position: relative;
-  left: 190px;
+  left: 120px;
+  bottom: 70px;
 }
 
 .container .wrapper .image:nth-child(2) {
   position: relative;
-  left: 270px;
+  left: 225px;
+  bottom: 95px;
 }
 
 .container .wrapper .image:nth-child(3) {
   position: relative;
-  left: 380px;
+  left: 330px;
+  bottom: 90px;
 }
 
 .container .wrapper .activeFirst {
