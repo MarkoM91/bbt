@@ -491,10 +491,14 @@
 
 .container .section_three .icons .grid__row .item::before {
   background-color: white;
+  z-index: 1000 !important;
+  position: absolute;
 }
 
 .container .section_three .icons .grid__row .item::after {
   background-color: #b1c09d;
+  position: relative;
+  bottom: 150px;
 }
 
 .container .section_three .icons .grid__row .item div {

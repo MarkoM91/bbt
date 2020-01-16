@@ -440,9 +440,13 @@
 
             &::before {
               background-color: white;
+              z-index: 1000!important;
+              position: absolute;
             }
             &::after {
               background-color: #b1c09d;
+              position: relative;
+              bottom: 150px;
             }
 
             div {
