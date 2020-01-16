@@ -46,7 +46,7 @@
 }
 
 .container .wrapper .image img {
-  width: 45% !important;
+  width: 30% !important;
   height: 100% !important;
   text-align: center;
   margin: auto;
@@ -55,16 +55,16 @@
 .container .wrapper .image .purple {
   background-color: #540e54 !important;
   border-radius: 50%;
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
   color: #540e54;
 }
 
 .container .wrapper .image .round {
   border-radius: 50%;
-  height: 350px;
+  height: 250px;
   z-index: 1;
-  width: 350px;
+  width: 250px;
   background-color: #d3e19d;
   color: #540e54;
 }
@@ -150,8 +150,6 @@
 
 .container .wrapper .image .round3::after {
   position: relative;
-  bottom: 190px;
-  left: 400px;
   background: #d3e19d;
   height: 85px;
   width: 85px;
@@ -159,27 +157,24 @@
 
 .container .wrapper .image .round3::before {
   position: relative;
-  top: 100px;
-  left: 400px;
   background: #d3e19d;
 }
 
 .container .wrapper .image:nth-child(1) {
   position: absolute;
-  left: -125px !important;
   z-index: 200;
 }
 
 .container .wrapper .image:nth-child(1) img {
   position: absolute;
   top: 100px;
-  left: 50px;
   z-index: 100;
 }
 
 .container .wrapper .image:nth-child(2) {
   position: absolute;
   left: 50%;
+  z-index: 200;
   -webkit-transform: translateX(-50%) !important;
           transform: translateX(-50%) !important;
 }
@@ -188,11 +183,13 @@
   position: absolute;
   left: 50%;
   top: 50px;
+  z-index: 100;
 }
 
 .container .wrapper .image:nth-child(3) {
   position: absolute;
   right: -100px !important;
+  z-index: 200;
 }
 
 .container .wrapper .image:nth-child(3) img {
@@ -200,6 +197,7 @@
   top: 100px;
   right: -178px;
   overflow-x: hidden;
+  z-index: 100;
 }
 
 .container .wrapper .activeFirst {
