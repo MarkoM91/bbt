@@ -39,6 +39,11 @@
           transform: translateX(-50%);
 }
 
+.container .wrapper .logo {
+  position: relative;
+  bottom: 500px;
+}
+
 .container .wrapper .image {
   z-index: 1;
   width: calc(100% / 3) !important;
@@ -206,6 +211,14 @@
   right: -140px;
   overflow-x: hidden;
   z-index: 100;
+}
+
+.container .wrapper .image:nth-child(3) .words {
+  width: 206px !important;
+  height: 142px !important;
+  position: absolute;
+  left: 170px;
+  bottom: 450px;
 }
 
 .container .wrapper .activeFirst {

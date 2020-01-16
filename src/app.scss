@@ -32,6 +32,11 @@
      left: 43.5%;
      bottom: 8px;
      transform: translateX(-50%);
+
+     .logo {
+       position: relative;
+       bottom: 500px;
+     }
     .image  {
       z-index: 1;
       width: calc(100% / 3)!important;
@@ -179,6 +184,13 @@
             right: -140px;
         overflow-x: hidden;
         z-index: 100;
+      }
+      .words {
+        width: 206px!important;
+        height: 142px!important;
+        position: absolute;
+        left: 170px;
+        bottom: 450px;
       }
     }
     .activeFirst {
