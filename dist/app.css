@@ -186,14 +186,23 @@
           animation: moveLeft 1s !important;
 }
 
-.container .direct-link-container .direct-link-wrapper {
+.container .direct-link-container {
+  z-index: 1;
   position: absolute;
   bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container .direct-link-container .direct-link-wrapper {
+  z-index: 1;
   display: -webkit-box;
   display: flex;
 }
 
 .container .direct-link-container .direct-link-wrapper .circle {
+  z-index: 1;
   height: 15px;
   width: 15px;
   border: 2px solid black;

@@ -160,12 +160,16 @@
     }
   }
   .direct-link-container {
+    z-index: 1;
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     .direct-link-wrapper {
-      position:absolute;
-      bottom: 0;
-
+      z-index: 1;
       display: flex;
       .circle {
+        z-index: 1;
         height: 15px;
         width: 15px;
         border: 2px solid black;
