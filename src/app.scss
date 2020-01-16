@@ -462,6 +462,17 @@
               }
             }
           }
+          .item:nth-child(1) {
+            position: relative;
+          }
+          .item:nth-child(2) {
+            position: relative;
+            top: 20px;
+          }
+          .item:nth-child(3) {
+            position: relative;
+          bottom: 60px;
+        }
         }
         &__row:nth-child(1) {
 

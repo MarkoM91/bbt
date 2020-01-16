@@ -516,3 +516,17 @@
   height: 300px !important;
 }
 
+.container .section_three .icons .grid__row .item:nth-child(1) {
+  position: relative;
+}
+
+.container .section_three .icons .grid__row .item:nth-child(2) {
+  position: relative;
+  top: 20px;
+}
+
+.container .section_three .icons .grid__row .item:nth-child(3) {
+  position: relative;
+  bottom: 60px;
+}
+
