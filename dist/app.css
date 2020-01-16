@@ -472,6 +472,7 @@
 .container .section_three .icons .grid__row {
   display: -webkit-box;
   display: flex;
+  margin-bottom: 50px !important;
 }
 
 .container .section_three .icons .grid__row .item {

@@ -426,6 +426,7 @@
       .grid {
         &__row {
           display: flex;
+          margin-bottom: 50px!important;
           .item {
             position: relative;
             height: 274px!important;
