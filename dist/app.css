@@ -580,5 +580,44 @@
   border-radius: 50%;
   background-color: white;
   position: relative;
+  z-index: 1000;
+}
+
+.container .section_three .bottom .bottom-up .right__item::after {
+  position: relative;
+  content: "";
+  display: block;
+  height: 968px;
+  width: 968px;
+  border-radius: 50%;
+  background-color: darkblue;
+  z-index: 100;
+}
+
+.container .section_three .bottom .bottom-up .right__item::before {
+  position: relative;
+  content: "";
+  display: block;
+  height: 168px;
+  width: 168px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 100;
+}
+
+.container .section_three .bottom .bottom-up .right__item .right-circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.container .section_three .bottom .bottom-up .right__item {
+  text-align: center;
+  width: 968px;
+  height: 968px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
 }
 

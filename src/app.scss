@@ -525,6 +525,42 @@
               border-radius: 50%;
               background-color: white;
               position: relative;
+              z-index: 1000;
+              &::after {
+                position: relative;
+                content: '';
+                display: block;
+                height: 968px;
+                width: 968px;
+                border-radius: 50%;
+                background-color: darkblue;
+                z-index: 100;
+              }
+              &::before {
+                position: relative;
+                content: '';
+                display: block;
+                height: 168px;
+                width: 168px;
+                border-radius: 50%;
+                background-color: white;
+                z-index: 100;
+              }
+              .right-circle {
+                height: 80px;
+                width: 80px;
+                border-radius: 50%;
+                background-color: white;
+              }
+
+          }
+          &__item {
+            text-align: center;
+              width: 968px;
+              height: 968px;
+              border-radius: 50%;
+              background-color: white;
+              position: relative;
           }
         }
       }
