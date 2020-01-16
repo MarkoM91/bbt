@@ -475,8 +475,9 @@
 }
 
 .container .section_three .icons .grid__row .item {
-  height: 274px;
-  height: 250px;
+  position: relative;
+  height: 274px !important;
+  height: 250px !important;
 }
 
 .container .section_three .icons .grid__row .item::before,
@@ -494,5 +495,19 @@
 
 .container .section_three .icons .grid__row .item::after {
   background-color: #b1c09d;
+}
+
+.container .section_three .icons .grid__row .item div {
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .section_three .icons .grid__row .item div img {
+  width: 100px !important;
+  height: 100px !important;
 }
 
