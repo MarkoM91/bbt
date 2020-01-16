@@ -156,6 +156,13 @@
         bottom: 80px;
         z-index: 100;
       }
+      .logo {
+        width: 275px!important;
+        height: 300px!important;
+        position: absolute;
+        bottom: 670px;
+        left: 125px;
+      }
     }
     .image:nth-child(2) {
       position: absolute;
@@ -169,6 +176,46 @@
         left: 50%;
 
         z-index: 100;
+      }
+
+      .ellitic {
+        height: 34px!important;
+        width: 44px!important;
+        position: absolute;
+        bottom: 800px!important;
+        left: 650px!important;
+        margin-bottom: 16px;
+      }
+      .japan {
+        height: 19px!important;
+        width: 126px!important;
+        bottom: 800px!important;
+        left: 700px!important;
+        margin-bottom: 16px!important;
+      }
+      .matcha {
+        width: 396px!important;
+        height: 80px!important;
+        bottom: 750px!important;
+        left: 570px!important;
+      }
+      .wavew1 {
+        height: 8px!important;
+        width: 88px!important;
+        bottom: 730px!important;
+        left: 825px!important;
+      }
+      .wavew2 {
+        height: 8px!important;
+        width: 88px!important;
+        bottom: 710px!important;
+        left: 825px!important;
+      }
+      .classico {
+        height: 131px!important;
+        width: 196px!important;
+        bottom: 550px!important;
+        left: 700px!important;
       }
     }
     .image:nth-child(3) {

@@ -180,6 +180,14 @@
   z-index: 100;
 }
 
+.container .wrapper .image:nth-child(1) .logo {
+  width: 275px !important;
+  height: 300px !important;
+  position: absolute;
+  bottom: 670px;
+  left: 125px;
+}
+
 .container .wrapper .image:nth-child(2) {
   position: absolute;
   bottom: -15px;
@@ -194,6 +202,51 @@
   bottom: 80px;
   left: 50%;
   z-index: 100;
+}
+
+.container .wrapper .image:nth-child(2) .ellitic {
+  height: 34px !important;
+  width: 44px !important;
+  position: absolute;
+  bottom: 800px !important;
+  left: 650px !important;
+  margin-bottom: 16px;
+}
+
+.container .wrapper .image:nth-child(2) .japan {
+  height: 19px !important;
+  width: 126px !important;
+  bottom: 800px !important;
+  left: 700px !important;
+  margin-bottom: 16px !important;
+}
+
+.container .wrapper .image:nth-child(2) .matcha {
+  width: 396px !important;
+  height: 80px !important;
+  bottom: 750px !important;
+  left: 570px !important;
+}
+
+.container .wrapper .image:nth-child(2) .wavew1 {
+  height: 8px !important;
+  width: 88px !important;
+  bottom: 730px !important;
+  left: 825px !important;
+}
+
+.container .wrapper .image:nth-child(2) .wavew2 {
+  height: 8px !important;
+  width: 88px !important;
+  bottom: 710px !important;
+  left: 825px !important;
+}
+
+.container .wrapper .image:nth-child(2) .classico {
+  height: 131px !important;
+  width: 196px !important;
+  bottom: 550px !important;
+  left: 700px !important;
 }
 
 .container .wrapper .image:nth-child(3) {
