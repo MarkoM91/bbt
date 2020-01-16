@@ -12,6 +12,12 @@
   overflow: hidden;
 }
 
+.container .sfondo {
+  position: relative;
+  right: 500px;
+  bottom: 250px;
+}
+
 .container .active {
   display: block;
 }

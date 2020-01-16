@@ -11,6 +11,12 @@
   margin: auto;
   overflow: hidden;
 
+  .sfondo {
+    position: relative;
+    right: 500px;
+    bottom: 250px;
+  }
+
   .active {
     display: block;
   }
