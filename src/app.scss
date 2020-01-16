@@ -23,6 +23,7 @@
   .wrapper {
      height: 100%;
      width: 100%;
+     z-index: 1;
      display: flex;
      align-items: center;
      justify-content: space-between;
@@ -40,12 +41,19 @@
         text-align: center;
         margin: auto;
       }
-      .round {
+      .purple {
+        background-color: #540e54!important;
         border-radius: 50%;
         height: 350px;
         width: 350px;
+        color: #540e54;
+      }
+      .round {
+        border-radius: 50%;
+        height: 350px;
+        z-index: 1;
+        width: 350px;
         background-color: #d3e19d;
-        box-shadow: 20px 20px 20px #540e54;
         color: #540e54;
         &::after, &::before {
           content: '';
@@ -57,15 +65,34 @@
         }
       }
 
-      .round1, .round2, .round3 {
-        position: absolute;
-        bottom: 50px;
-        left: 20px;
+      .purple1 {
+        position: relative;
+      }
+      .purple2 {
+        position: relative;
+      }
+      .purple3 {
+        position: relative;
       }
       .round1 {
         position: absolute;
-        bottom: 50px;
-        left: 20px;
+
+        top: 380px;
+        left: 300px;
+        &::after {
+          position: relative;
+          bottom: 190px;
+          left: 300px;
+          background: red;
+          height: 85px;
+          width: 85px;
+        }
+        &::before  {
+          position: relative;
+          top: 100px;
+          left: 400px;
+          background: red;
+        }
       }
       .round2 {
         position: absolute;
@@ -77,6 +104,7 @@
         bottom: 50px;
         left: 20px;
       }
+
     }
 
     .image:nth-child(1) {
