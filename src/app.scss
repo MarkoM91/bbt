@@ -55,7 +55,7 @@
         }
       }
 
-      .round1 {
+      .round1, .round2, .round3 {
         position: absolute;
         bottom: 50px;
         left: 20px;
@@ -65,17 +65,15 @@
     .image:nth-child(1) {
       position: relative;
       left: 100px;
-      bottom: 70px;
+      z-index: 200;
     }
     .image:nth-child(2) {
       position: relative;
       left: 183px;
-      bottom: 95px;
     }
     .image:nth-child(3) {
       position: relative;
       left: 300px;
-      bottom: 90px;
     }
     .activeFirst {
       width: 40px;
@@ -115,12 +113,13 @@
   }
   .footer {
     width:100%;
-   height:100px;
+   height:150px;
    border-top-left-radius:50%;
    border-top-right-radius:50%;
    background-color: #ce8dbd;
    position: absolute;
    bottom: 0;
+   z-index: 1;
   }
 }
 
