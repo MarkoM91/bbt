@@ -374,8 +374,18 @@
     justify-content: space-between!important;
     align-items: center;
     margin: auto;
+    position: relative;
+
+    img {
+      z-index: 200;
+    }
 
     .text {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
       p:nth-child(1), p:nth-child(3), p:nth-child(5) {
         font-family: Montserrat;
         font-size: 40px;
@@ -389,6 +399,10 @@
     }
 
     .icon {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
       width: 50%;
       img {
 

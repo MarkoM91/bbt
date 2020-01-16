@@ -413,6 +413,19 @@
   -webkit-box-align: center;
           align-items: center;
   margin: auto;
+  position: relative;
+}
+
+.container .section_two img {
+  z-index: 200;
+}
+
+.container .section_two .text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .container .section_two .text p:nth-child(1),
@@ -431,6 +444,11 @@
 }
 
 .container .section_two .icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 50%;
 }
 
