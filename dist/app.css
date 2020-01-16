@@ -11,12 +11,6 @@
   margin: auto;
 }
 
-.container .hidden {
-  height: 550px;
-  width: 89px;
-  display: none;
-}
-
 .container .active {
   display: block;
 }
@@ -99,8 +93,8 @@
 
 .container .wrapper .image .round1 {
   position: absolute;
-  top: 380px;
-  left: 300px;
+  top: 470px;
+  left: 200px;
 }
 
 .container .wrapper .image .round1::after {

@@ -10,12 +10,6 @@
   height: 100%;
   margin: auto;
 
-  .hidden {
-    height: 550px;
-    width: 89px;
-    display: none;
-  }
-
   .active {
     display: block;
   }
@@ -84,8 +78,8 @@
       .round1 {
         position: absolute;
 
-        top: 380px;
-        left: 300px;
+        top: 470px;
+        left: 200px;
         &::after {
           position: relative;
           bottom: 190px;
