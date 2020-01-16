@@ -624,6 +624,44 @@
 
         }
       }
+      .bottom-down {
+        .down-left {
+          height: 818px;
+          width: 818px;
+          background-color: #ce8dbd;
+          border-radius: 50%;
+          z-index: 1000;
+          position: absolute;
+          &::before {
+            content: '';
+            display: block;
+            height: 818px;
+            width: 818px;
+            background-color: white;
+            border-radius: 50%;
+            position: relative;
+            left: 1
+
+
+
+
+
+
+            50px;
+          }
+          img {
+            height: 852px;
+            width: 369px;
+            transform: rotate(8deg);
+          }
+          img:nth-child(1) {
+            transform: rotate(-8deg);
+          }
+          img:nth-child(2) {
+            transform: rotate(8deg);
+          }
+        }
+      }
     }
   }
 }
