@@ -477,6 +477,7 @@
 
 .container .section_three .icons .grid__row .item {
   position: relative;
+  margin: 25px;
   height: 274px !important;
   height: 250px !important;
 }
@@ -528,5 +529,56 @@
 .container .section_three .icons .grid__row .item:nth-child(3) {
   position: relative;
   bottom: 60px;
+}
+
+.container .section_three .bottom .bottom-up {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.container .section_three .bottom .bottom-up .left__item {
+  width: 330px;
+  height: 330px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.container .section_three .bottom .bottom-up .left__item img {
+  position: relative;
+  z-index: 100;
+}
+
+.container .section_three .bottom .bottom-up .left__item p {
+  line-height: 968px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .section_three .bottom .bottom-up .right {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.container .section_three .bottom .bottom-up .right__item {
+  text-align: center;
+  width: 968px;
+  height: 968px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
 }
 
