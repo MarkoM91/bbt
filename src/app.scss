@@ -157,11 +157,11 @@
         z-index: 100;
       }
       .logo {
-        width: 275px!important;
-        height: 300px!important;
+        width: 353px!important;
+        height: 329px!important;
         position: absolute;
-        bottom: 670px;
-        left: 125px;
+        bottom: 600px;
+        left: 150px;
       }
     }
     .image:nth-child(2) {
@@ -178,45 +178,64 @@
         z-index: 100;
       }
 
-      .ellitic {
-        height: 34px!important;
-        width: 44px!important;
-        position: absolute;
-        bottom: 800px!important;
-        left: 650px!important;
-        margin-bottom: 16px;
+      .items {
+
+         p {
+         }
+          .ellitic {
+          height: 34px!important;
+          width: 44px!important;
+          position: absolute;
+          bottom: 800px!important;
+          left: 650px!important;
+          margin-bottom: 16px;
+          span {
+            margin-bottom: 15px;
+          }
+        }
+        .japan {
+          position: absolute;
+          height: 19px!important;
+          width: 126px!important;
+          bottom: 800px!important;
+          left: 700px!important;
+          margin-bottom: 16px!important;
+          font-family: Montserrat;
+          color: #d3e19d;
+        }
+        .matcha {
+          font-family: Caferus Normal;
+          position: absolute;
+          width: 396px!important;
+          height: 80px!important;
+          bottom: 750px!important;
+          left: 570px!important;
+          color: #540e54;
+        }
+        .wavew1 {
+          height: 8px!important;
+          width: 88px!important;
+          bottom: 730px!important;
+          left: 825px!important;
+        }
+        .wavew2 {
+          height: 8px!important;
+          width: 88px!important;
+          bottom: 710px!important;
+          left: 825px!important;
+        }
+        .classico {
+          position: absolute;
+          color: #540E54;
+          height: 131px!important;
+          width: 196px!important;
+          bottom: 500px!important;
+          left: 645px!important;
+          font-family: Montserrat;
+          text-align: right;
+        }
       }
-      .japan {
-        height: 19px!important;
-        width: 126px!important;
-        bottom: 800px!important;
-        left: 700px!important;
-        margin-bottom: 16px!important;
-      }
-      .matcha {
-        width: 396px!important;
-        height: 80px!important;
-        bottom: 750px!important;
-        left: 570px!important;
-      }
-      .wavew1 {
-        height: 8px!important;
-        width: 88px!important;
-        bottom: 730px!important;
-        left: 825px!important;
-      }
-      .wavew2 {
-        height: 8px!important;
-        width: 88px!important;
-        bottom: 710px!important;
-        left: 825px!important;
-      }
-      .classico {
-        height: 131px!important;
-        width: 196px!important;
-        bottom: 550px!important;
-        left: 700px!important;
-      }
+
     }
     .image:nth-child(3) {
       position: absolute;

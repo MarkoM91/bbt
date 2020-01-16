@@ -181,11 +181,11 @@
 }
 
 .container .wrapper .image:nth-child(1) .logo {
-  width: 275px !important;
-  height: 300px !important;
+  width: 353px !important;
+  height: 329px !important;
   position: absolute;
-  bottom: 670px;
-  left: 125px;
+  bottom: 600px;
+  left: 150px;
 }
 
 .container .wrapper .image:nth-child(2) {
@@ -204,7 +204,7 @@
   z-index: 100;
 }
 
-.container .wrapper .image:nth-child(2) .ellitic {
+.container .wrapper .image:nth-child(2) .items .ellitic {
   height: 34px !important;
   width: 44px !important;
   position: absolute;
@@ -213,40 +213,54 @@
   margin-bottom: 16px;
 }
 
-.container .wrapper .image:nth-child(2) .japan {
+.container .wrapper .image:nth-child(2) .items .ellitic span {
+  margin-bottom: 15px;
+}
+
+.container .wrapper .image:nth-child(2) .items .japan {
+  position: absolute;
   height: 19px !important;
   width: 126px !important;
   bottom: 800px !important;
   left: 700px !important;
   margin-bottom: 16px !important;
+  font-family: Montserrat;
+  color: #d3e19d;
 }
 
-.container .wrapper .image:nth-child(2) .matcha {
+.container .wrapper .image:nth-child(2) .items .matcha {
+  font-family: Caferus Normal;
+  position: absolute;
   width: 396px !important;
   height: 80px !important;
   bottom: 750px !important;
   left: 570px !important;
+  color: #540e54;
 }
 
-.container .wrapper .image:nth-child(2) .wavew1 {
+.container .wrapper .image:nth-child(2) .items .wavew1 {
   height: 8px !important;
   width: 88px !important;
   bottom: 730px !important;
   left: 825px !important;
 }
 
-.container .wrapper .image:nth-child(2) .wavew2 {
+.container .wrapper .image:nth-child(2) .items .wavew2 {
   height: 8px !important;
   width: 88px !important;
   bottom: 710px !important;
   left: 825px !important;
 }
 
-.container .wrapper .image:nth-child(2) .classico {
+.container .wrapper .image:nth-child(2) .items .classico {
+  position: absolute;
+  color: #540E54;
   height: 131px !important;
   width: 196px !important;
-  bottom: 550px !important;
-  left: 700px !important;
+  bottom: 500px !important;
+  left: 645px !important;
+  font-family: Montserrat;
+  text-align: right;
 }
 
 .container .wrapper .image:nth-child(3) {
