@@ -157,6 +157,8 @@
 
 .container .wrapper .image:nth-child(1) {
   position: absolute;
+  left: -75px;
+  bottom: -50px;
   z-index: 200;
 }
 
@@ -168,7 +170,8 @@
 
 .container .wrapper .image:nth-child(2) {
   position: absolute;
-  left: 50%;
+  bottom: -15px;
+  left: 45%;
   z-index: 200;
   -webkit-transform: translateX(-50%) !important;
           transform: translateX(-50%) !important;
@@ -183,10 +186,12 @@
 
 .container .wrapper .image:nth-child(3) {
   position: absolute;
+  bottom: -50px;
+  right: -110px;
   z-index: 200;
 }
 
-.container .wrapper .image:nth-child(3) over img {
+.container .wrapper .image:nth-child(3) img {
   position: absolute;
   bottom: 80px;
   right: -178px;

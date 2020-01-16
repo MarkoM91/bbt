@@ -136,6 +136,8 @@
 
     .image:nth-child(1) {
       position: absolute;
+      left: -75px;
+      bottom: -50px;
       z-index: 200;
       img {
         position: absolute;
@@ -145,7 +147,8 @@
     }
     .image:nth-child(2) {
       position: absolute;
-      left: 50%;
+      bottom: -15px;
+      left: 45%;
       z-index: 200;
       transform: translateX(-50%)!important;
       img {
@@ -158,8 +161,9 @@
     }
     .image:nth-child(3) {
       position: absolute;
+      bottom: -50px;
+      right: -110px;
       z-index: 200;
-      over
       img {
         position: absolute;
         bottom: 80px;
