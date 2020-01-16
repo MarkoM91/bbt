@@ -9,6 +9,7 @@
   width: 100%;
   height: 100%;
   margin: auto;
+  overflow: hidden;
 
   .active {
     display: block;
@@ -27,7 +28,7 @@
      transform: translateX(-50%);
     .image  {
       z-index: 1;
-      width: 50%!important;
+      width: calc(100% / 3)!important;
       height: 650px!important;
       position: relative;
       img {
@@ -157,8 +158,8 @@
     }
     .image:nth-child(3) {
       position: absolute;
-      right: -100px!important;
       z-index: 200;
+      over
       img {
         position: absolute;
         bottom: 80px;
