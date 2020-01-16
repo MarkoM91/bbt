@@ -718,6 +718,8 @@
 
 .container .section_four {
   position: relative;
+  display: -webkit-box;
+  display: flex;
 }
 
 .container .section_four img {
@@ -733,5 +735,55 @@
   -webkit-transform: translate(-25%, -50%);
           transform: translate(-25%, -50%);
   z-index: 200;
+}
+
+.container .section_four .four-left {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 200;
+}
+
+.container .section_five {
+  height: 100%;
+  width: 100%;
+}
+
+.container .section_five img {
+  z-index: 100;
+}
+
+.container .section_five .five-container {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.container .section_five .five-container .btn button {
+  height: 80px;
+  width: 243px;
+  position: absolute;
+  border: 1px solid white;
+}
+
+.container .section_five .five-container .btn::after {
+  content: "";
+  display: block;
+  width: 1175px;
+  height: 1px;
+  color: white;
 }
 

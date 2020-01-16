@@ -667,6 +667,8 @@
 
   .section_four {
     position: relative;
+    display: flex;
+
     img {
       position: relative;
       top: 150px;
@@ -678,6 +680,46 @@
       top: 50%;
       transform: translate(-25%, -50%);
       z-index: 200;
+    }
+    .four-left {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 200;
+    }
+  }
+  .section_five {
+    height: 100%;
+    width: 100%;
+    img {
+      z-index: 100;
+    }
+    .five-container {
+      width: 75%;
+      height: 75%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .btn {
+        button {
+          height: 80px;
+          width: 243px;
+          position: absolute;
+          border: 1px solid white;
+        }
+        &::after {
+          content: '';
+          display: block;
+          width: 1175px;
+          height: 1px;
+          color: white;
+        }
+      }
     }
   }
 }
