@@ -163,13 +163,14 @@
 
 .container .wrapper .image:nth-child(1) {
   position: absolute;
-  left: -75px;
   bottom: -50px;
   z-index: 200;
 }
 
 .container .wrapper .image:nth-child(1) img {
   position: absolute;
+  height: 615px !important;
+  width: 264px !important;
   bottom: 80px;
   z-index: 100;
 }
@@ -199,8 +200,10 @@
 
 .container .wrapper .image:nth-child(3) img {
   position: absolute;
+  height: 615px !important;
+  width: 264px !important;
   bottom: 80px;
-  right: -178px;
+  right: -140px;
   overflow-x: hidden;
   z-index: 100;
 }
