@@ -589,52 +589,47 @@
   background-color: white;
 }
 
-.container .section_three .bottom .bottom-up .left__item:nth-child(2) {
-  width: 330px;
-  height: 330px;
-  background-color: white;
+.container .section_three .bottom .bottom-up .left__item:nth-child(2)::before {
+  content: "";
+  display: block;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
-  z-index: 1000;
-}
-
-.container .section_three .bottom .bottom-up .left__item:nth-child(2) img {
-  position: relative;
-  z-index: 100;
-}
-
-.container .section_three .bottom .bottom-up .left__item:nth-child(2) p {
-  line-height: 968px;
-  text-align: center;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.container .section_three .bottom .bottom-up .left__item:nth-child(3) {
-  width: 330px;
-  height: 330px;
   background-color: white;
+}
+
+.container .section_three .bottom .bottom-up .left__item:nth-child(2)::after {
+  content: "";
+  display: block;
+  height: 38px;
+  width: 38px;
   border-radius: 50%;
-  z-index: 1000;
+  background-color: white;
 }
 
-.container .section_three .bottom .bottom-up .left__item:nth-child(3) img {
-  position: relative;
-  z-index: 100;
+.container .section_three .bottom .bottom-up .left__item:nth-child(2) .center-circle {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: white;
 }
 
-.container .section_three .bottom .bottom-up .left__item:nth-child(3) p {
-  line-height: 968px;
-  text-align: center;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+.container .section_three .bottom .bottom-up .left__item:nth-child(3)::before {
+  content: "";
+  display: block;
+  height: 79px;
+  width: 79px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.container .section_three .bottom .bottom-up .left__item:nth-child(3)::after {
+  content: "";
+  display: block;
+  height: 81px;
+  width: 81px;
+  border-radius: 50%;
+  background-color: white;
 }
 
 .container .section_three .bottom .bottom-up .right {

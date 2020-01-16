@@ -538,44 +538,47 @@
            }
           }
           &__item:nth-child(2) {
-            width: 330px;
-            height: 330px;
-            background-color: white;
-            border-radius: 50%;
-           z-index: 1000;
-           img {
-             position: relative;
-             z-index: 100;
-           }
-           p {
-             line-height: 968px;
-             text-align: center;
-             margin: auto;
-             position: absolute;
-             top: 50%;
-             left: 50%;
-             transform: translate(-50%, -50%);
-           }
+            &::before {
+               content: '';
+               display: block;
+               height: 60px;
+               width: 60px;
+               border-radius: 50%;
+               background-color: white;
+            }
+            &::after {
+              content: '';
+              display: block;
+              height: 38px;
+              width: 38px;
+              border-radius: 50%;
+              background-color: white;
+            }
+            .center-circle {
+              height: 32px;
+              width: 32px;
+              border-radius: 50%;
+              background-color: white;
+            }
           }
           &__item:nth-child(3) {
-            width: 330px;
-            height: 330px;
-            background-color: white;
-            border-radius: 50%;
-           z-index: 1000;
-           img {
-             position: relative;
-             z-index: 100;
-           }
-           p {
-             line-height: 968px;
-             text-align: center;
-             margin: auto;
-             position: absolute;
-             top: 50%;
-             left: 50%;
-             transform: translate(-50%, -50%);
-           }
+            &::before {
+               content: '';
+               display: block;
+               height: 79px;
+               width: 79px;
+               border-radius: 50%;
+               background-color: white;
+            }
+            &::after {
+              content: '';
+              display: block;
+              height: 81px;
+              width: 81px;
+              border-radius: 50%;
+              background-color: white;
+            }
+
           }
         }
         .right {
