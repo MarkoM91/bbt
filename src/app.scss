@@ -376,20 +376,15 @@
     margin: auto;
 
     .text {
-      p:nth-child(1) {
+      p:nth-child(1), p:nth-child(3), p:nth-child(5) {
         font-family: Montserrat;
+        font-size: 40px;
+        color: #432e19;
       }
-      p:nth-child(2) {
+      p:nth-child(2), p:nth-child(4) {
         font-family: Caferus Normal;
-      }
-      p:nth-child(3) {
-        font-family: Montserrat;
-      }
-      p:nth-child(4) {
-        font-family: Caferus Normal;
-      }
-      p:nth-child(4) {
-        font-family: Montserrat;
+        font-size: 80px;
+        color: white;
       }
     }
 

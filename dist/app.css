@@ -415,24 +415,19 @@
   margin: auto;
 }
 
-.container .section_two .text p:nth-child(1) {
+.container .section_two .text p:nth-child(1),
+.container .section_two .text p:nth-child(3),
+.container .section_two .text p:nth-child(5) {
   font-family: Montserrat;
+  font-size: 40px;
+  color: #432e19;
 }
 
-.container .section_two .text p:nth-child(2) {
-  font-family: Caferus Normal;
-}
-
-.container .section_two .text p:nth-child(3) {
-  font-family: Montserrat;
-}
-
+.container .section_two .text p:nth-child(2),
 .container .section_two .text p:nth-child(4) {
   font-family: Caferus Normal;
-}
-
-.container .section_two .text p:nth-child(4) {
-  font-family: Montserrat;
+  font-size: 80px;
+  color: white;
 }
 
 .container .section_two .icon {
