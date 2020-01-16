@@ -564,6 +564,79 @@
           transform: translate(-50%, -50%);
 }
 
+.container .section_three .bottom .bottom-up .left__item:nth-child(1)::before {
+  content: "";
+  display: block;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.container .section_three .bottom .bottom-up .left__item:nth-child(1)::after {
+  content: "";
+  display: block;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.container .section_three .bottom .bottom-up .left__item:nth-child(1) .left-circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.container .section_three .bottom .bottom-up .left__item:nth-child(2) {
+  width: 330px;
+  height: 330px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.container .section_three .bottom .bottom-up .left__item:nth-child(2) img {
+  position: relative;
+  z-index: 100;
+}
+
+.container .section_three .bottom .bottom-up .left__item:nth-child(2) p {
+  line-height: 968px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .section_three .bottom .bottom-up .left__item:nth-child(3) {
+  width: 330px;
+  height: 330px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.container .section_three .bottom .bottom-up .left__item:nth-child(3) img {
+  position: relative;
+  z-index: 100;
+}
+
+.container .section_three .bottom .bottom-up .left__item:nth-child(3) p {
+  line-height: 968px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .container .section_three .bottom .bottom-up .right {
   display: -webkit-box;
   display: flex;
@@ -607,17 +680,8 @@
 
 .container .section_three .bottom .bottom-up .right__item .right-circle {
   height: 80px;
-  width: 80px;
+  width: 168px;
   border-radius: 50%;
   background-color: white;
-}
-
-.container .section_three .bottom .bottom-up .right__item {
-  text-align: center;
-  width: 968px;
-  height: 968px;
-  border-radius: 50%;
-  background-color: white;
-  position: relative;
 }
 
