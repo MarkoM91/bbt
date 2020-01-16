@@ -40,8 +40,8 @@
 }
 
 .container .wrapper .image img {
-  width: 35% !important;
-  height: 100% !important;
+  width: 372, 32px !important;
+  height: 867px !important;
   text-align: center;
   margin: auto;
 }
@@ -75,8 +75,8 @@
 
 .container .wrapper .image .purple1 {
   position: relative;
-  left: 300px;
-  top: 350px;
+  left: 215px;
+  top: 450px;
 }
 
 .container .wrapper .image .purple2 {
@@ -94,13 +94,13 @@
 .container .wrapper .image .round1 {
   position: absolute;
   top: 470px;
-  left: 200px;
+  left: 215px;
 }
 
 .container .wrapper .image .round1::after {
   position: relative;
-  bottom: 190px;
-  left: 300px;
+  bottom: 275px;
+  left: 245px;
   background: #d3e19d;
   height: 85px;
   width: 85px;
@@ -161,7 +161,7 @@
 
 .container .wrapper .image:nth-child(1) img {
   position: absolute;
-  top: 80px;
+  bottom: 80px;
   z-index: 100;
 }
 
@@ -175,8 +175,8 @@
 
 .container .wrapper .image:nth-child(2) img {
   position: absolute;
+  bottom: 80px;
   left: 50%;
-  top: 60px;
   z-index: 100;
 }
 
@@ -188,7 +188,7 @@
 
 .container .wrapper .image:nth-child(3) img {
   position: absolute;
-  top: 80px;
+  bottom: 80px;
   right: -178px;
   overflow-x: hidden;
   z-index: 100;
@@ -222,7 +222,7 @@
   z-index: 1;
   position: absolute;
   bottom: 20px;
-  left: 52.5%;
+  left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -239,7 +239,7 @@
   width: 15px;
   background-color: white;
   border-radius: 50%;
-  margin: 2px;
+  margin-right: 16px;
   position: relative;
 }
 
@@ -272,6 +272,20 @@
 }
 
 .container .direct-link-container .direct-link-wrapper .circle:nth-child(3)::after {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: block;
+  height: 80%;
+  width: 80%;
+  background-color: #bba1b9;
+}
+
+.container .direct-link-container .direct-link-wrapper .circle:nth-child(3) .circle:nth-child(4)::after {
   content: "";
   border-radius: 50%;
   position: absolute;
