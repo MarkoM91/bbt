@@ -557,11 +557,6 @@
   line-height: 968px;
   text-align: center;
   margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
 .container .section_three .bottom .bottom-up .left__item:nth-child(1)::before {
@@ -710,10 +705,33 @@
 .container .section_three .bottom .bottom-down .down-left img:nth-child(1) {
   -webkit-transform: rotate(-8deg);
           transform: rotate(-8deg);
+  position: relative;
+  bottom: 5500px;
 }
 
 .container .section_three .bottom .bottom-down .down-left img:nth-child(2) {
   -webkit-transform: rotate(8deg);
           transform: rotate(8deg);
+  position: relative;
+  bottom: 5500px;
+}
+
+.container .section_four {
+  position: relative;
+}
+
+.container .section_four img {
+  position: relative;
+  top: 150px;
+  z-index: 100;
+}
+
+.container .section_four .four-left {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  -webkit-transform: translate(-25%, -50%);
+          transform: translate(-25%, -50%);
+  z-index: 200;
 }
 

@@ -180,8 +180,7 @@
 
       .items {
 
-         p {
-         }
+
           .ellitic {
           height: 34px!important;
           width: 44px!important;
@@ -507,10 +506,7 @@
              line-height: 968px;
              text-align: center;
              margin: auto;
-             position: absolute;
-             top: 50%;
-             left: 50%;
-             transform: translate(-50%, -50%);
+
            }
           }
           &__item:nth-child(1) {
@@ -656,81 +652,32 @@
           }
           img:nth-child(1) {
             transform: rotate(-8deg);
+            position: relative;
+            bottom: 5500px;
           }
           img:nth-child(2) {
             transform: rotate(8deg);
+            position: relative;
+            bottom: 5500px;
           }
         }
       }
     }
   }
+
+  .section_four {
+    position: relative;
+    img {
+      position: relative;
+      top: 150px;
+      z-index: 100;
+    }
+    .four-left {
+      position: absolute;
+      left: 25%;
+      top: 50%;
+      transform: translate(-25%, -50%);
+      z-index: 200;
+    }
+  }
 }
-
-//@keyframes circle {
-//    from {
-//      transform: translateX(0%);
-//    }
-//    to {
-//      transform: translateX(100%);
-//    }
-//}
-
-//@keyframes circle {
-//  from {
-//  		transform: rotate(-45deg)
-//  		           translate(-150px)
-//  		           rotate(-45deg);
-//  	}
-//  	to {
-//  		transform: rotate(0deg)
-//  		           translate(-150px)
-//  		           rotate(0deg);
-//  	}
-//}
-
-//@keyframes moveLeft {
-//  0% {
-//  transform: translateX(0) translateY(0);
-//  }
-//
-//  25% {
-//  transform: translateX(-125px) translateY(125px);
-//  }
-//
-//  50% {
-//  transform: translateX(-250px) translateY(250px);
-//  }
-//
-//  75% {
-//  transform: translateX(-375px) translateY(125);
-//  }
-//
-//  100% {
-//  transform: translateX(-500px) translateY(0);
-//
-//  }
-//}
-//
-//
-//  @keyframes moveRight {
-//    0% {
-//    transform: translateX(0) translateY(0);
-//  }
-//
-//  25% {
-//    transform: translateX(125px) translateY(-125px);
-//  }
-//
-//  50% {
-//    transform: translateX(250px) translateY(-250px);
-//  }
-//
-//  75% {
-//    transform: translateX(375px) translateY(-125);
-//  }
-//
-//  100% {
-//    transform: translateX(500px) translateY(0);
-//
-//  }
-//}
