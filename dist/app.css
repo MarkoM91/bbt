@@ -498,7 +498,6 @@
 .container .section_three .icons .grid__row .item::after {
   background-color: #b1c09d;
   position: relative;
-  bottom: 150px;
 }
 
 .container .section_three .icons .grid__row .item div {
@@ -513,5 +512,10 @@
 .container .section_three .icons .grid__row .item div img {
   width: 100px !important;
   height: 100px !important;
+}
+
+.container .section_three .icons .grid__row .item:nth-child(1)::after {
+  position: relative;
+  left: 10px;
 }
 

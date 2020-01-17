@@ -446,7 +446,7 @@
             &::after {
               background-color: #b1c09d;
               position: relative;
-              bottom: 150px;
+
             }
 
             div {
@@ -460,6 +460,19 @@
                 height: 100px!important;
               }
             }
+          }
+
+          .item:nth-child(1) {
+            &::after {
+              position: relative;
+              left: 10px;
+            }
+          }
+          .item:nth-child(2) {
+
+          }
+          .item:nth-child(3) {
+
           }
         }
       }
