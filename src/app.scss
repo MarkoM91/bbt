@@ -710,6 +710,7 @@
           height: 80px;
           width: 243px;
           position: absolute;
+          left: 50px;
           border: 1px solid white;
         }
         &::after {
@@ -721,5 +722,14 @@
         }
       }
     }
+  }
+  .scrivici {
+    button {
+      height: 80px;
+      width: 243px;
+      border-radius: 50px;
+      border: 1px solid black;
+    }
+
   }
 }
