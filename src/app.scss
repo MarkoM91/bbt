@@ -256,6 +256,7 @@
         position: absolute;
         left: 170px;
         bottom: 450px;
+        position: fixed;
       }
     }
     .activeFirst {
@@ -724,6 +725,7 @@
     }
   }
   .scrivici {
+    height: 1000px;
     button {
       height: 80px;
       width: 243px;
@@ -731,5 +733,53 @@
       border: 1px solid black;
     }
 
+  }
+
+  .contatti {
+    height: 621px;
+    width: 100%;
+    background-color: brown;
+    border-top-left-radius:10%;
+    border-top-right-radius:10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__logo {
+      position: absolute;
+      bottom: 75%;
+      left: 35%;
+    }
+
+    .contatti-up {
+      display: flex;
+      justify-content: space-around;
+      &contatti-up__telefono-fax, &__email, &__email {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .contatti-middle {
+      &::before {
+        content: '';
+        display: block;
+        height: 39px;
+        width: 39px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+      }
+      &::after {
+        content: '';
+        display: block;
+        width: 1170px;
+        height: 2px;
+        background-color: white;
+      }
+    }
   }
 }
